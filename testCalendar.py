@@ -1,5 +1,5 @@
-import pytest
 from calendar import generate_month
+
 
 def test_generate_month(capsys):
     generate_month(2025, 4)

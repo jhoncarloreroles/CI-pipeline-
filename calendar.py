@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 
+
 def generate_month(year, month):
     first_day = datetime(year, month, 1)
     for i in range(31):
@@ -7,4 +8,3 @@ def generate_month(year, month):
         if day.month != month:
             break
         print(day.strftime("%A, %B %d, %Y"))
-
