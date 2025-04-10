@@ -8,5 +8,3 @@ def generate_month(year, month):
             break
         print(day.strftime("%A, %B %d, %Y"))
 
-
-generate_month(2025, 4)
